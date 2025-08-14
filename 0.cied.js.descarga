@@ -1,0 +1,19 @@
+<style>
+	.div_warning{
+		font-size:2em;
+		font-family:Verdana;
+		width:100%;
+		text-align:center;
+		vertical-align:middle;
+	}
+	</style>
+
+	<div style='display: table; height: 100%; width:100%; overflow: hidden;'>
+		<div style='display: table-cell; vertical-align: middle;'>
+			<div class='div_warning'>
+				Oops! Has sido desconectado por inactividad. Por favor ingresa nuevamente.<br/><br/><br/>
+				<img src='https://plataforma.educa.city/app/web/assets/images/disconnected.png' width='10%' />
+			</div>
+		</div>
+	</div>
+	

@@ -1,0 +1,687 @@
+@font-face {
+	font-family: 'app_icons__modules';
+	src:url('fonts/app_icons__modules.eot?jzq6mh');
+	src:url('fonts/app_icons__modules.eot?jzq6mh#iefix') format('embedded-opentype'),
+		url('fonts/app_icons__modules.ttf?jzq6mh') format('truetype'),
+		url('fonts/app_icons__modules.woff?jzq6mh') format('woff'),
+		url('fonts/app_icons__modules.svg?jzq6mh#app_icons__modules') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'app_icons__modules_desk';
+	src:url('fonts/app_icons__modules_desk.eot?t1udzw');
+	src:url('fonts/app_icons__modules_desk.eot?t1udzw#iefix') format('embedded-opentype'),
+		url('fonts/app_icons__modules_desk.ttf?t1udzw') format('truetype'),
+		url('fonts/app_icons__modules_desk.woff?t1udzw') format('woff'),
+		url('fonts/app_icons__modules_desk.svg?t1udzw#app_icons__modules_desk') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icn-"], [class*=" icn-"] {
+	font-family: 'app_icons__modules', 'app_icons__modules_desk';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	vertical-align:middle;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icn-05em{
+  font-size:0.5em !important;
+}
+
+.icn-08em{
+  font-size:0.8em !important;
+}
+
+.icn-10em{
+  font-size:1em;
+}
+
+.icn-12em{
+  font-size:1.2em;
+}
+
+.icn-14em{
+  font-size:1.4em;
+}
+
+.icn-15em{
+  font-size:1.5em;
+}
+
+.icn-16em{
+  font-size:1.6em;
+}
+
+.icn-18em{
+  font-size:1.8em;
+}
+
+.icn-20em{
+  font-size:2em;
+}
+
+.icn-14px{
+  font-size:14px !important;
+}
+
+.icn-18px{
+  font-size:18px !important;
+}
+
+.icn-20px{
+  font-size:20px !important;
+}
+
+.icn-green{
+	color:#279A8E;
+}
+.icn-red{
+	color:#E84434;
+}
+.icn-blue{
+	color:#028BAE;
+}
+.icn-yellow{
+	color:#F7C216;
+}
+.icn-orange{
+	color:#F7AC11;
+}
+.icn-black{
+	color:#08080A;
+}
+.icn-black-dark-2{
+	color:;
+}
+.icn-grey{
+	color:#999998;
+}
+.icn-15em{
+	font-size:1.5em;
+}
+.icn-18em{
+	font-size:1.8em;
+}
+.icn-20em{
+	font-size:2em;
+}
+.icn-30em{
+	font-size:3em;
+}
+
+.icn-tabdyn-tab{
+	font-size:1.4em;
+	vertical-align: middle;
+	margin-right: 4px;
+}
+
+.icn-active_modules:before {
+	content: "\71";
+}
+.icn-administrative_processes:before {
+	content: "\77";
+}
+/* .icn-desk:before, .icn-nusoft:before {
+	content: "\65";
+} */
+.icn-desk:before, .icn-nusoft:before {
+	content: "\e900";
+}
+
+.icn-desk2:before, .icn-start:before {
+	content: "\72";
+}
+
+.icn-executed_actions:before {
+	content: "\74";
+}
+.icn-help_center:before, .icn-help:before {
+	content: "\79";
+}
+.icn-logout:before {
+	content: "\75";
+}
+.icn-logout2:before {
+	content: "\69";
+}
+.icn-my_contracts:before {
+	content: "\6f";
+}
+.icn-my_invoices:before {
+	content: "\70";
+}
+.icn-my_orders:before {
+	content: "\61";
+}
+.icn-my_payments:before {
+	content: "\73";
+}
+.icn-my_profile:before {
+	content: "\64";
+}
+.icn-pay_online:before {
+	content: "\66";
+}
+.icn-see_ratings:before {
+	content: "\67";
+}
+.icn-assignments:before, .icn-deliveries:before, .icn-lesson_planner:before, .icn-lms_lesson_planner:before, .icn-reports_lms:before {
+	content: "\68";
+}
+.icn-attendance_book:before, .icn-attendance:before {
+	content: "\6a";
+}
+.icn-behaviors_report:before, .icn-behavior:before {
+	content: "\6b";
+}
+.icn-behaviors:before {
+	content: "\6b";
+}
+.icn-evaluation:before {
+	content: "\6c";
+}
+.icn-evaluation_term_scores:before, .icn-evaluation_term_reports:before {
+	content: "\7a";
+}
+.icn-grading_book:before {
+	content: "\78";
+}
+.icn-group_manager_reports:before {
+	content: "\63";
+}
+.icn-level_up_standards:before {
+	content: "\76";
+}
+.icn-massive_assignments:before, .icn-sco_variables_x_massive_assignment:before, .icn-see_deliveries:before {
+	content: "\62";
+}
+.icn-skills:before, .icn-nusoft_achievements:before {
+	content: "\6e";
+}
+.icn-standard_indicators:before, .icn-standards:before {
+	content: "\6d";
+}
+.icn-enrollments:before, .icn-enrollments_and_pre_enrollments:before {
+	content: "\31";
+}
+.icn-enrollments_map:before{
+	content: "\32";
+}
+.icn-enrollments2 .path1:before {
+	content: "\33";
+	color: rgb(1, 0, 2);
+}
+.icn-enrollments2 .path2:before {
+	content: "\34";
+	margin-left: -0.947265625em;
+	color: rgb(1, 0, 2);
+}
+.icn-enrollments2 .path3:before {
+	content: "\35";
+	margin-left: -0.947265625em;
+	color: rgb(0, 0, 0);
+}
+.icn-enrollments2 .path4:before {
+	content: "\36";
+	margin-left: -0.947265625em;
+	color: rgb(0, 0, 0);
+}
+.icn-enrollments2 .path5:before {
+	content: "\37";
+	margin-left: -0.947265625em;
+	color: rgb(0, 0, 0);
+}
+.icn-enrollments2 .path6:before {
+	content: "\38";
+	margin-left: -0.947265625em;
+	color: rgb(0, 0, 0);
+}
+.icn-enrollments2 .path7:before {
+	content: "\39";
+	margin-left: -0.947265625em;
+	color: rgb(0, 0, 0);
+}
+.icn-enrollments2 .path8:before {
+	content: "\3a";
+	margin-left: -0.947265625em;
+	color: rgb(255, 255, 255);
+}
+
+.icn-enrollments2 .path9:before {
+	content: "\3b";
+	margin-left: -0.947265625em;
+	color: rgb(0, 0, 0);
+}
+
+.icn-pre_enrollments:before, .icn-my_pre_enrollments:before, .icn-us_profile_files__types:before, .icn-us_profile_files:before, .icn-us_profile_files__uploaded_files:before, .icn-pre_enrollments_age_ranges:before{
+	content: "\e925";
+}
+
+.icn-promotion:before {
+	content: "\e926";
+}
+.icn-reports_academic_statistics:before{
+	content: "\e927";
+}
+.icn-reports_academics:before {
+	content: "\e928";
+}
+.icn-reports_behavior:before {
+	content: "\e929";
+}
+.icn-auditing .path1:before {
+	content: "\e92a";
+	color: rgb(0, 0, 0);
+}
+.icn-auditing .path2:before {
+	content: "\e92b";
+	margin-left: -0.947265625em;
+	color: rgb(0, 0, 0);
+}
+.icn-auditing .path3:before {
+	content: "\e92c";
+	margin-left: -0.947265625em;
+	color: rgb(0, 0, 0);
+}
+.icn-auditing .path4:before {
+	content: "\e92d";
+	margin-left: -0.947265625em;
+	color: rgb(0, 0, 0);
+}
+.icn-auditing .path5:before {
+	content: "\e92e";
+	margin-left: -0.947265625em;
+	color: rgb(0, 0, 0);
+}
+.icn-auditing .path6:before {
+	content: "\e92f";
+	margin-left: -0.947265625em;
+	color: rgb(0, 0, 0);
+}
+.icn-auditing .path7:before {
+	content: "\e930";
+	margin-left: -0.947265625em;
+	color: rgb(0, 0, 0);
+}
+.icn-auditing .path8:before {
+	content: "\e931";
+	margin-left: -0.947265625em;
+	color: rgb(0, 0, 0);
+}
+.icn-auditing .path9:before {
+	content: "\e932";
+	margin-left: -0.947265625em;
+	color: rgb(1, 0, 2);
+}
+.icn-auditing .path10:before {
+	content: "\e933";
+	margin-left: -0.947265625em;
+	color: rgb(1, 0, 2);
+}
+.icn-auditing .path11:before {
+	content: "\e934";
+	margin-left: -0.947265625em;
+	color: rgb(1, 0, 2);
+}
+.icn-auditing .path12:before {
+	content: "\e935";
+	margin-left: -0.947265625em;
+	color: rgb(0, 0, 0);
+}
+.icn-auditing .path13:before {
+	content: "\e936";
+	margin-left: -0.947265625em;
+	color: rgb(255, 255, 255);
+}
+.icn-auditing .path14:before {
+	content: "\e937";
+	margin-left: -0.947265625em;
+	color: rgb(0, 0, 0);
+}
+.icn-auditing .path15:before {
+	content: "\e938";
+	margin-left: -0.947265625em;
+	color: rgb(0, 0, 0);
+}
+.icn-reports_cluster:before, .icn-reports_auditing:before {
+	content: "\30";
+}
+.icn-reports_demographic:before {
+	content: "\2f";
+}
+.icn-reports_generated_reports_history:before, .icn-schools__service_history:before {
+	content: "\2a";
+}
+.icn-reports_id_cards:before {
+	content: "\2d";
+}
+.icn-reports_printable_spreadsheets:before {
+	content: "\2b";
+}
+.icn-reports_proofs_and_certificates:before {
+	content: "\2c";
+}
+.icn-reports_registry:before {
+	content: "\2e";
+}
+.icn-reports:before, .icn-reports_all:before, .icn-reports_setup:before {
+	content: "\e940";
+}
+.icn-reports_social:before {
+	content: "\21";
+}
+.icn-users_all:before {
+	content: "\22";
+}
+.icn-sessions:before {
+	content: "\22";
+}
+.icn-group_managers:before {
+	content: "\b7";
+}
+.icn-guardians:before {
+	content: "\24";
+}
+.icn-staff:before {
+	content: "\25";
+}
+.icn-students:before {
+	content: "\28";
+}
+.icn-teachers:before {
+	content: "\29";
+}
+.icn-users:before {
+	content: "\3d";
+}
+.icn-academic_terms:before {
+	content: "\5b";
+}
+.icn-areas:before, .icn-edr_areas:before {
+	content: "\5d";
+}
+.icn-grading_scales:before {
+	content: "\aa";
+}
+.icn-assignment_types:before {
+	content: "\c7";
+}
+.icn-assignments_hierarchy:before {
+	content: "\bf";
+}
+.icn-schedule:before {
+	content: "\5b";
+}
+.icn-specialties:before {
+	content: "\d1";
+}
+.icn-levels:before {
+	content: "\f1";
+}
+.icn-parent_areas:before {
+	content: "\5f";
+}
+.icn-student_behavior_handbook:before, .icn-student_behavior_handbook__categories:before {
+	content: "\51";
+}
+.icn-sub_areas:before {
+	content: "\57";
+}
+.icn-subjects:before, .icn-courses:before, .icn-sco_variables_x_course:before {
+	content: "\45";
+}
+.icn-edr_items:before {
+	content: "\52";
+}
+.icn-edr_providers:before {
+	content: "\54";
+}
+.icn-clusters:before {
+	content: "\59";
+}
+.icn-database_changes:before, .icn-storage:before {
+	content: "\55";
+}
+.icn-debug_files:before {
+	content: "\49";
+}
+.icn-error_logs:before {
+	content: "\4f";
+}
+.icn-emailing:before {
+	content: "\50";
+}
+.icn-quotations:before {
+	content: "\41";
+}
+.icn-quotations_2:before {
+	content: "\53";
+}
+.icn-permissions:before, .icn-roles:before {
+	content: "\44";
+}
+.icn-schools:before, .icn-school:before, .icn-schools__services_plan:before {
+	content: "\46";
+}
+.icn-all_schools:before {
+	content: "\46";
+}
+.icn-schools_clusters:before {
+	content: "\46";
+}
+.icn-schools_map:before {
+	content: "\47";
+}
+.icn-branches__types:before {
+	content: "\48";
+}
+.icn-branches:before, .icn-branches__branches:before {
+	content: "\4a";
+}
+.icn-curriculum:before, .icn-library:before {
+	content: "\4b";
+}
+.icn-custom_field_groups:before, .icn-report_groups:before {
+	content: "\4c";
+}
+.icn-custom_fields:before, .icn-custom_fields__fields:before, .icn-custom_fields__groups:before {
+	content: "\5a";
+}
+.icn-edr:before, .icn-educational_resources:before {
+	content: "\58";
+}
+
+.icn-evaluation_setup:before {
+	content: "\43";
+}
+.icn-configuration_table_fields:before {
+	content: "\56";
+}
+.icn-languages:before, .icn-comments:before, .icn-comment_types:before, .icn-evaluation_cualitative_comments:before, .icn-support_bot:before, .icn-bot_intentions:before {
+	content: "\42";
+}
+.icn-moodle:before {
+	content: "\4e";
+}
+.icn-nusoft .path1:before {
+	content: "\4d";
+	color: rgb(6, 6, 6);
+}
+.icn-nusoft .path2:before {
+	content: "\5c";
+	margin-left: -0.947265625em;
+	color: rgb(7, 7, 7);
+}
+.icn-nusoft .path3:before {
+	content: "\5e";
+	margin-left: -0.947265625em;
+	color: rgb(3, 3, 3);
+}
+.icn-nusoft .path4:before {
+	content: "\60";
+	margin-left: -0.947265625em;
+	color: rgb(254, 254, 254);
+}
+.icn-school_api_keys:before, .icn-school_information:before {
+	content: "\c1";
+}
+.icn-setting_variables:before, .icn-sco_variables:before, .icn-sco_evaluation_variables:before{
+	content: "\c9";
+}
+.icn-setting_vars:before {
+	content: "\cd";
+}
+.icn-setting_vars_x_school:before {
+	content: "\c9";
+}
+.icn-settings:before, .icn-batch_processes:before{
+	content: "\cd";
+}
+.icn-billing_item_groups:before {
+	content: "\d3";
+}
+.icn-billing_items:before {
+	content: "\da";
+}
+.icn-billing_models:before {
+	content: "\e1";
+}
+.icn-billing_model_types:before, .icn-billing_accounting_accounts:before {
+	content: "\e9";
+}
+.icn-billing_payment_means:before {
+	content: "\ed";
+}
+.icn-billing_retentions:before {
+	content: "\f3";
+}
+.icn-billing_taxes:before, .icn-schools__service_orders:before {
+	content: "\fa";
+}
+.icn-billings:before, .icn-reports_billings:before {
+	content: "\e978";
+}
+.icn-billing_contracts:before {
+	content: "\e979";
+}
+.icn-billing_customers:before {
+	content: "\e97a";
+}
+.icn-billing_export_data:before {
+	content: "\e97b";
+}
+.icn-billing_import_data:before {
+	content: "\e97c";
+}
+.icn-billing_invoices:before, .icn-billing_charges:before {
+	content: "\e97d";
+}
+.icn-billing_manual_payments_review:before {
+	content: "\e97e";
+}
+.icn-billing_orders:before {
+	content: "\e97f";
+}
+.icn-billing_payment_agreements:before {
+	content: "\e980";
+}
+.icn-billing_payments:before {
+	content: "\e981";
+}
+.icn-billing_gateway_payment_responses:before, .icn-reports:before, .icn-billing_reports:before {
+	content: "\e982";
+}
+.icn-billing_special_discounts:before {
+	content: "\e983";
+}
+.icn-api_calls:before, .icn-billing_settings:before {
+	content: "\e984";
+}
+.icn-events__types:before, .icn-event_types:before {
+	content: "\e985";
+}
+.icn-events:before, .icn-events__events:before, .icn-agenda:before {
+	content: "\e986";
+}
+.icn-messages:before, .icn-notifications:before, .icn-notifications_sent:before, .icn-notifications_packs:before {
+	content: "\e987";
+}
+.icn-news:before, .icn-social:before, .icn-special_news:before {
+	content: "\e988";
+}
+.icn-survey_answer_options:before, .icn-surveys__answer_options:before {
+	content: "\e989";
+}
+.icn-survey_option_groups:before, .icn-surveys__option_groups:before {
+	content: "\e98a";
+}
+.icn-survey_question_groups:before, .icn-surveys__question_groups:before {
+	content: "\e98b";
+}
+.icn-surveys:before, .icn-surveys__surveys:before {
+	content: "\e98c";
+}
+
+.icn-online_exams:before {
+	content: "\e989";
+}
+.icn-exams:before {
+	content: "\e989";
+}
+.icn-questions:before {
+	content: "\e989";
+}
+.icn-exams_x_student:before {
+	content: "\e989";
+}
+
+/* Common action icons */
+.icn-update:before {
+	content: "\68";
+}
+.icn-history:before {
+	content: "\2a";
+}
+.icn-map:before{
+	content: "\32";
+}
+.icn-statistics:before, .icn-estadisticas:before{
+	content: "\e927";
+}
+.icn-options:before {
+	content: "\e989";
+}
+.icn-modules:before {
+	content: "\d3";
+}
+.icn-video:before {
+	content: "\d3";
+}
+.icn-download:before {
+	content: "\d3";
+}
+.icn-upload:before {
+	content: "\d3";
+}
+.icn-tags:before, .icn-tags_tags:before, .icn-tags_categories:before, .icn-tags_x_record:before {
+	content: "\d3";
+}
+.icn-groups:before {
+	content: "\f1";
+}
+.icn-read:before {
+	content: "\f1";
+}
+.icn-enrolled_courses:before {
+	content: "\2c";
+}

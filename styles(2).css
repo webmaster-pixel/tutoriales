@@ -1,0 +1,213 @@
+.small_box_help_resources span, .ad_message span{
+	font-size:5em;
+	margin:5px;
+	margin-top:;
+	color:#ffffff;
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.small_box_help_resources span:hover, .ad_message span:hover{
+	opacity: 1;
+}
+
+#button_customer_satisfaction_rate_us{
+	float:right;
+	width:150px;
+	cursor:pointer;
+	margin:auto;
+	margin-top:-5px;
+	padding:5px;
+	text-align:center;
+}
+
+#button_customer_satisfaction_rate_us:hover{
+	background-color: #002832;
+}
+
+#welcome_div{
+
+}
+
+#welcome_div > div{
+	float 		: left;
+	max-width 	: 48%;
+}
+
+.welcome_user_img{
+	overflow  : hidden;
+	width 	  : 100px;
+	height 	  : 100px;
+	max-height: 100px !important;
+	max-width : 100px !important;
+}
+
+#welcome_message{
+	font-size:13px;
+	color:#ffffff;
+}
+
+.circleStat{
+	font-size 	: 50px;
+	line-height : 50px;
+}
+
+.circleStat input.whiteCircle{
+	height 		: 50px;
+	max-width   : 60px;
+	clear 		: both;
+}
+.circleStat .percent{
+	clear 		: both;
+}
+
+.update_password_steps{
+	max-width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+
+.update_password_steps > .up_steps{
+	width: 35%;
+	height: 15%;
+	flex-wrap: wrap;
+	flex-grow: 3;
+	flex-shrink: 3;
+	justify-content: center;
+}
+
+.step_1{
+	width: 10% !important;
+	height: 5% !important;
+	padding-right: 0.5%;
+	padding-top: 0.15%;
+}
+
+.div_meeting > button{
+	margin: 0 40% 0 40%;
+}
+
+.meeting_details{
+	margin: 0 35% 0 35%;
+	max-width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+
+.detail{
+	flex-wrap: wrap;
+	flex-grow: 1;
+	flex-shrink: 1;
+	align-self: center;
+}
+
+
+.link > span{
+	margin: 0 10% 0 20%;
+	text-transform: uppercase;
+}
+
+.update_password{
+	margin: 0 40% 0 40%;
+}
+
+.social_network{
+	width: 40px;
+	font-size: 2.5em;
+	margin: 4px;
+}
+
+@media only screen and (min-width: 1500px) {
+	.welcome_user_img{
+		width 		: 90px;
+		height 		: 90px;
+	}
+}
+
+@media only screen and (max-width: 1368px) {
+	.social_network{
+		width: 35px;
+		font-size: 2em;
+	}
+	.small_box_help_resources span, .ad_message span{
+		font-size 	: 4.5em;
+	}
+	.welcome_user_img{
+		width 		: 60px;
+		height 		: 60px;
+	}
+	.welcome_user_img img{
+		width: 60px;
+	}
+
+	.circleStat, .circleStat.number{
+		font-size 	: 30px;
+		line-height : 30px;
+	}
+
+	.circleStat canvas{
+		width 		: 150px;
+		height 		: 150px;
+	}
+
+	.circleStat input.whiteCircle{
+		height 		: 35px;
+		font-size 	: 30px;
+		line-height : 30px;
+		top 		: 0px;
+		left 		: 220px;
+	}
+}
+
+@media only screen and (max-width: 1050px) and (min-width: 1024px) {
+   .small_box_help_resources span, .ad_message span{
+		font-size 	: 3em;
+	}
+
+	#welcome_div span, .ad_message span{
+		font-size 	: 3em;
+	}
+
+	.welcome_user_img{
+		width 		: 40px;
+		height 		: 40px;
+	}
+
+	.welcome_user_img img{
+		width 		: 40px;
+	}
+
+	.circleStat, .circleStat.number{
+		font-size 	: 25px;
+		line-height : 25px;
+	}
+
+	.circleStat canvas{
+		width 		: 100px;
+		height 		: 100px;
+	}
+
+	.circleStat input.whiteCircle{
+		height 		: 25px;
+		font-size 	: 25px;
+		line-height : 25px;
+		top 		: 0px;
+		left 		: 230px;
+	}
+}
+
+.chart__seats .an_seats .canvas{
+	width: 250px;
+	height: 250px;
+}
+
+/* @media only screen and (min-width:1800px){
+	.chart__seats .an_seats .canvas{
+		width: 300px;
+		height: 300px;
+	}
+} */

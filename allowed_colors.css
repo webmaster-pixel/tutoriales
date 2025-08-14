@@ -1,0 +1,529 @@
+/** Base colors */
+/** https://hihayk.github.io/scale/#4/6/50/80/-51/67/20/14/28567E/40/86/126 */
+/** https://hihayk.github.io/scale/#4/6/50/80/-51/67/20/14/8BA23C/40/86/126 */
+/** https://hihayk.github.io/scale/#4/6/50/80/-51/67/20/14/D48331/40/86/126 */
+/** https://hihayk.github.io/scale/#4/6/50/80/-51/67/20/14/3489B4/40/86/126 */
+
+.orange{background-color: #D48331;}
+.green{background-color: #8BA23C;}
+.blue1{background-color: #28567E;}
+.blue2{background-color: #3489B4;}
+
+
+/** Tints Orange */
+			
+.orange_light_1 	{background-color: #d78b3f;}
+.orange_light_2 	{background-color: #da944c;}
+.orange_light_3 	{background-color: #dd9c5a;}
+.orange_light_4 	{background-color: #dfa468;}
+.orange_light_5 	{background-color: #e2ac76;}
+.orange_light_6 	{background-color: #e5b583;}
+.orange_light_7 	{background-color: #e8bd91;}
+.orange_light_8 	{background-color: #ebc59f;}
+.orange_light_9 	{background-color: #eecdad;}
+.orange_light_10 	{background-color: #f1d6ba;}
+.orange_light_11 	{background-color: #f4dec8;}
+.orange_light_12 	{background-color: #f6e6d6;}
+.orange_light_13 	{background-color: #f9eee4;}
+.orange_light_14 	{background-color: #fcf7f1;}
+.orange_light_15 	{background-color: #ffffff;}
+			
+/** Shades Orange */
+			
+.orange_dark_1 		{background-color: #ca7a2a;}
+.orange_dark_2 		{background-color: #bb7227;}
+.orange_dark_3 		{background-color: #ad6924;}
+.orange_dark_4 		{background-color: #9e6021;}
+.orange_dark_5 		{background-color: #90571e;}
+.orange_dark_6 		{background-color: #824f1b;}
+.orange_dark_7 		{background-color: #734618;}
+.orange_dark_8 		{background-color: #653d15;}
+.orange_dark_9 		{background-color: #563412;}
+.orange_dark_10 	{background-color: #482c0f;}
+.orange_dark_11 	{background-color: #3a230c;}
+.orange_dark_12 	{background-color: #2b1a09;}
+.orange_dark_13 	{background-color: #1d1106;}
+.orange_dark_14 	{background-color: #0e0903;}
+.orange_dark_15 	{background-color: #000000;}
+			
+/** Tints Blue 1 */
+			
+.blue_1_light_1 	{background-color: #2e628f;}
+.blue_1_light_2 	{background-color: #336ea1;}
+.blue_1_light_3 	{background-color: #397ab2;}
+.blue_1_light_4 	{background-color: #4085c2;}
+.blue_1_light_5 	{background-color: #5190c8;}
+.blue_1_light_6 	{background-color: #629ccd;}
+.blue_1_light_7 	{background-color: #74a7d3;}
+.blue_1_light_8 	{background-color: #85b2d8;}
+.blue_1_light_9 	{background-color: #97bdde;}
+.blue_1_light_10 	{background-color: #a8c8e3;}
+.blue_1_light_11 	{background-color: #b9d3e9;}
+.blue_1_light_12 	{background-color: #cbdeee;}
+.blue_1_light_13 	{background-color: #dce9f4;}
+.blue_1_light_14 	{background-color: #eef4f9;}
+.blue_1_light_15 	{background-color: #ffffff;}
+			
+/** Shades Blue 1 */
+			
+.blue_1_dark_1 		{background-color: #255076;}
+.blue_1_dark_2 		{background-color: #234b6d;}
+.blue_1_dark_3 		{background-color: #204565;}
+.blue_1_dark_4 		{background-color: #1d3f5c;}
+.blue_1_dark_5 		{background-color: #1b3954;}
+.blue_1_dark_6 		{background-color: #18344c;}
+.blue_1_dark_7 		{background-color: #152e43;}
+.blue_1_dark_8 		{background-color: #13283b;}
+.blue_1_dark_9 		{background-color: #102232;}
+.blue_1_dark_10 	{background-color: #0d1d2a;}
+.blue_1_dark_11 	{background-color: #0b1722;}
+.blue_1_dark_12 	{background-color: #081119;}
+.blue_1_dark_13 	{background-color: #050b11;}
+.blue_1_dark_14 	{background-color: #030608;}
+.blue_1_dark_15 	{background-color: #000000;}
+			
+/** Tints Blue 2 */
+			
+.blue_2_light_1 	{background-color: #3894c2;}
+.blue_2_light_2 	{background-color: #449cc9;}
+.blue_2_light_3 	{background-color: #52a4cd;}
+.blue_2_light_4 	{background-color: #61acd1;}
+.blue_2_light_5 	{background-color: #6fb3d5;}
+.blue_2_light_6 	{background-color: #7ebbda;}
+.blue_2_light_7 	{background-color: #8cc2de;}
+.blue_2_light_8 	{background-color: #9acae2;}
+.blue_2_light_9 	{background-color: #a9d1e6;}
+.blue_2_light_10 	{background-color: #b7d9ea;}
+.blue_2_light_11 	{background-color: #c5e1ee;}
+.blue_2_light_12 	{background-color: #d4e8f3;}
+.blue_2_light_13 	{background-color: #e2f0f7;}
+.blue_2_light_14 	{background-color: #f1f7fb;}
+.blue_2_light_15 	{background-color: #ffffff;}
+			
+/** Shades Blue 2 */
+			
+.blue_2_dark_1 		{background-color: #3180a8;}
+.blue_2_dark_2 		{background-color: #2d779c;}
+.blue_2_dark_3 		{background-color: #2a6e90;}
+.blue_2_dark_4 		{background-color: #266484;}
+.blue_2_dark_5 		{background-color: #235b78;}
+.blue_2_dark_6 		{background-color: #1f526c;}
+.blue_2_dark_7 		{background-color: #1c4960;}
+.blue_2_dark_8 		{background-color: #184054;}
+.blue_2_dark_9 		{background-color: #153748;}
+.blue_2_dark_10 	{background-color: #112e3c;}
+.blue_2_dark_11 	{background-color: #0e2530;}
+.blue_2_dark_12 	{background-color: #0a1b24;}
+.blue_2_dark_13 	{background-color: #071218;}
+.blue_2_dark_14 	{background-color: #03090c;}
+.blue_2_dark_15 	{background-color: #000000;}
+			
+/** Tints Green */
+			
+.green_light_1 		{background-color: #97b041;}
+.green_light_2 		{background-color: #a2bc49;}
+.green_light_3 		{background-color: #a9c157;}
+.green_light_4 		{background-color: #b0c665;}
+.green_light_5 		{background-color: #b7cb73;}
+.green_light_6 		{background-color: #bed081;}
+.green_light_7 		{background-color: #c6d58f;}
+.green_light_8 		{background-color: #cddb9d;}
+.green_light_9 		{background-color: #d4e0ab;}
+.green_light_10 	{background-color: #dbe5b9;}
+.green_light_11 	{background-color: #e2eac7;}
+.green_light_12 	{background-color: #e9efd5;}
+.green_light_13 	{background-color: #f1f5e3;}
+.green_light_14 	{background-color: #f8faf1;}
+.green_light_15 	{background-color: #ffffff;}
+			
+/** Shades Green */
+			
+.green_dark_1 		{background-color: #829738;}
+.green_dark_2 		{background-color: #788c34;}
+.green_dark_3 		{background-color: #6f8230;}
+.green_dark_4 		{background-color: #66772c;}
+.green_dark_5 		{background-color: #5d6c28;}
+.green_dark_6 		{background-color: #536124;}
+.green_dark_7 		{background-color: #4a5620;}
+.green_dark_8 		{background-color: #414c1c;}
+.green_dark_9 		{background-color: #384118;}
+.green_dark_10 		{background-color: #2e3614;}
+.green_dark_11 		{background-color: #252b10;}
+.green_dark_12 		{background-color: #1c200c;}
+.green_dark_13 		{background-color: #131608;}
+.green_dark_14 		{background-color: #090b04;}
+.green_dark_15 		{background-color: #000000;}
+
+/** Mixing colors */
+
+/** Blue 1 */
+
+.mix_blue_1_1{background-color:#23165F;}
+.mix_blue_1_2{background-color:#1C1F75;}
+.mix_blue_1_3{background-color:#243C8A;}
+.mix_blue_1_4{background-color:#2C60A0;}
+.mix_blue_1_5{background-color:#3489B4;}
+.mix_blue_1_6{background-color:#4DAFC0;}
+.mix_blue_1_7{background-color:#67CBC8;}
+.mix_blue_1_8{background-color:#81D6C3;}
+.mix_blue_1_9{background-color:#9CE0C4;}
+.mix_blue_1_10{background-color:#B8EACC;}
+.mix_blue_1_11{background-color:#D4F3DB;}
+
+/** Blue 2 */
+
+.mix_blue_2_1{background-color:#201142;}
+.mix_blue_2_2{background-color:#1C1652;}
+.mix_blue_2_3{background-color:#1C2361;}
+.mix_blue_2_4{background-color:#223B70;}
+.mix_blue_2_5{background-color:#28567E;}
+.mix_blue_2_6{background-color:#437B90;}
+.mix_blue_2_7{background-color:#5F9CA3;}
+.mix_blue_2_8{background-color:#7BB4AF;}
+.mix_blue_2_9{background-color:#98C6B9;}
+.mix_blue_2_10{background-color:#B5D6C7;}
+.mix_blue_2_11{background-color:#D2E7DA;}
+
+/** Orange */
+
+.mix_orange_1{background-color:#4F7013;}
+.mix_orange_2{background-color:#7A8A19;}
+.mix_orange_3{background-color:#A39A21;}
+.mix_orange_4{background-color:#BC9228;}
+.mix_orange_5{background-color:#D48331;}
+.mix_orange_6{background-color:#DC784A;}
+.mix_orange_7{background-color:#E47564;}
+.mix_orange_8{background-color:#EA7F85;}
+.mix_orange_9{background-color:#F09AAF;}
+.mix_orange_10{background-color:#F5B6D1;}
+.mix_orange_11{background-color:#FAD3EB;}
+
+
+:root {
+
+--APP_FONT_FAMILY	: 'Open Sans', sans-serif, 'Century Gothic', Arial, Helvetica;
+
+--COLOR_PURPLE 		: #00435A;
+--COLOR_YELLOW 		: #F7AC11;
+
+--COLOR_ORANGE 		: #F7AC11;
+--COLOR_BLUE_1 		: #002832;
+--COLOR_BLUE_2 		: #005E76;
+
+--COLOR_GREEN 		: #279A8E;
+--COLOR_GREEN_2 	: #008285;
+
+--COLOR_RED 		: #EB3C00;
+--COLOR_RED_2 		: #F16334;
+--COLOR_PINK 		: #9F00A7;
+
+/** TINTS ORANGE */
+
+--COLOR_ORANGE_LIGHT_1 : 	#FFB316;
+--COLOR_ORANGE_LIGHT_2 : 	#FFBA1D;
+--COLOR_ORANGE_LIGHT_3 : 	#FFC029;
+--COLOR_ORANGE_LIGHT_4 : 	#FFC636;
+--COLOR_ORANGE_LIGHT_5 : 	#FFCC44;
+--COLOR_ORANGE_LIGHT_6 : 	#FFD152;
+--COLOR_ORANGE_LIGHT_7 : 	#FFD75F;
+--COLOR_ORANGE_LIGHT_8 : 	#FFDC6D;
+--COLOR_ORANGE_LIGHT_9 : 	#FFE07A;
+--COLOR_ORANGE_LIGHT_10 : 	#FFE588;
+--COLOR_ORANGE_LIGHT_11 : 	#FFE996;
+--COLOR_ORANGE_LIGHT_12 : 	#FFEDA3;
+--COLOR_ORANGE_LIGHT_13 : 	#FFF0B1;
+--COLOR_ORANGE_LIGHT_14 : 	#FFF3BE;
+--COLOR_ORANGE_LIGHT_15 : 	#FFF6CC;
+
+/** SHADES ORANGE */
+
+--COLOR_ORANGE_DARK_1 : 	#F5A809;
+--COLOR_ORANGE_DARK_2 : 	#EBA302;
+--COLOR_ORANGE_DARK_3 : 	#E09E00;
+--COLOR_ORANGE_DARK_4 : 	#D69900;
+--COLOR_ORANGE_DARK_5 : 	#CC9400;
+--COLOR_ORANGE_DARK_6 : 	#C28F00;
+--COLOR_ORANGE_DARK_7 : 	#B88900;
+--COLOR_ORANGE_DARK_8 : 	#AD8400;
+--COLOR_ORANGE_DARK_9 : 	#A37D00;
+--COLOR_ORANGE_DARK_10 : 	#997700;
+--COLOR_ORANGE_DARK_11 : 	#8F7100;
+--COLOR_ORANGE_DARK_12 : 	#856A00;
+--COLOR_ORANGE_DARK_13 : 	#7A6300;
+--COLOR_ORANGE_DARK_14 : 	#705C00;
+--COLOR_ORANGE_DARK_15 : 	#665500;
+
+	
+/** SHADES BLUE 1 */
+
+--COLOR_BLUE_2_DARK_15 : #003447;
+--COLOR_BLUE_2_DARK_14 : #00384C;
+--COLOR_BLUE_2_DARK_13 : #003C51;
+--COLOR_BLUE_2_DARK_12 : #003F56;
+--COLOR_BLUE_2_DARK_11 : #00435A;
+--COLOR_BLUE_2_DARK_10 : #00465E;
+--COLOR_BLUE_2_DARK_9 : #004A62;
+--COLOR_BLUE_2_DARK_8 : #004D66;
+--COLOR_BLUE_2_DARK_7 : #004F69;
+--COLOR_BLUE_2_DARK_6 : #00526C;
+--COLOR_BLUE_2_DARK_5 : #00556E;
+--COLOR_BLUE_2_DARK_4 : #005770;
+--COLOR_BLUE_2_DARK_3 : #005972;
+--COLOR_BLUE_2_DARK_2 : #005B74;
+--COLOR_BLUE_2_DARK_1 : #005D75;
+--COLOR_BLUE_2_DARK_0 : #005E76;
+
+/** TINTS BLUE 1 */
+
+--COLOR_BLUE_2_LIGHT_1 : #0E6981;
+--COLOR_BLUE_2_LIGHT_2 : #1B738C;
+--COLOR_BLUE_2_LIGHT_3 : #297E96;
+--COLOR_BLUE_2_LIGHT_4 : #3688A0;
+--COLOR_BLUE_2_LIGHT_5 : #4492A9;
+--COLOR_BLUE_2_LIGHT_6 : #529BB2;
+--COLOR_BLUE_2_LIGHT_7 : #5FA4BA;
+--COLOR_BLUE_2_LIGHT_8 : #6DADC3;
+--COLOR_BLUE_2_LIGHT_9 : #7AB6CA;
+--COLOR_BLUE_2_LIGHT_10 : #88BFD1;
+--COLOR_BLUE_2_LIGHT_11 : #96C7D8;
+--COLOR_BLUE_2_LIGHT_12 : #A3CFDF;
+--COLOR_BLUE_2_LIGHT_13 : #B1D7E5;
+--COLOR_BLUE_2_LIGHT_14 : #BEDFEA;
+--COLOR_BLUE_2_LIGHT_15 : #CCE6EF;
+
+
+/** --------------------- */
+
+/** SHADES BLUE 2 */
+
+--COLOR_BLUE_1_DARK_15 : #00161E;
+--COLOR_BLUE_1_DARK_14 : #001820;
+--COLOR_BLUE_1_DARK_13 : #001922;
+--COLOR_BLUE_1_DARK_12 : #001B24;
+--COLOR_BLUE_1_DARK_11 : #001D26;
+--COLOR_BLUE_1_DARK_10 : #001E28;
+--COLOR_BLUE_1_DARK_9 : #001F2A;
+--COLOR_BLUE_1_DARK_8 : #00212B;
+--COLOR_BLUE_1_DARK_7 : #00222C;
+--COLOR_BLUE_1_DARK_6 : #00232E;
+--COLOR_BLUE_1_DARK_5 : #00242F;
+--COLOR_BLUE_1_DARK_4 : #002530;
+--COLOR_BLUE_1_DARK_3 : #002630;
+--COLOR_BLUE_1_DARK_2 : #002731;
+--COLOR_BLUE_1_DARK_1 : #002732;
+--COLOR_BLUE_1_DARK_0 : #002832;
+
+/** TINTS BLUE 2 */
+
+--COLOR_BLUE_1_LIGHT_1 	: #0E343F;
+--COLOR_BLUE_1_LIGHT_2 	: #1B414B;
+--COLOR_BLUE_1_LIGHT_3 	: #294D57;
+--COLOR_BLUE_1_LIGHT_4 	: #365963;
+--COLOR_BLUE_1_LIGHT_5 	: #44656F;
+--COLOR_BLUE_1_LIGHT_6 	: #52717A;
+--COLOR_BLUE_1_LIGHT_7 	: #5F7D86;
+--COLOR_BLUE_1_LIGHT_8 	: #6D8891;
+--COLOR_BLUE_1_LIGHT_9 	: #7A949C;
+--COLOR_BLUE_1_LIGHT_10 : #889FA7;
+--COLOR_BLUE_1_LIGHT_11 : #96ABB2;
+--COLOR_BLUE_1_LIGHT_12 : #A3B6BC;
+--COLOR_BLUE_1_LIGHT_13 : #B1C1C7;
+--COLOR_BLUE_1_LIGHT_14 : #BECCD1;
+--COLOR_BLUE_1_LIGHT_15 : #CCD7DB;	
+
+	
+/** SHADES GREEN */
+
+--COLOR_GREEN_DARK_15 : #00554B;
+--COLOR_GREEN_DARK_14 : #005B51;
+--COLOR_GREEN_DARK_13 : #006257;
+--COLOR_GREEN_DARK_12 : #00685D;
+--COLOR_GREEN_DARK_11 : #006E62;
+--COLOR_GREEN_DARK_10 : #007367;
+--COLOR_GREEN_DARK_9 : 	#03796C;
+--COLOR_GREEN_DARK_8 : 	#067E71;
+--COLOR_GREEN_DARK_7 : 	#098276;
+--COLOR_GREEN_DARK_6 : 	#0C877A;
+--COLOR_GREEN_DARK_5 : 	#108B7E;
+--COLOR_GREEN_DARK_4 : 	#148E82;
+--COLOR_GREEN_DARK_3 : 	#189285;
+--COLOR_GREEN_DARK_2 : 	#1D9588;
+--COLOR_GREEN_DARK_1 : 	#22988B;
+
+/** TINTS GREEN */
+
+--COLOR_GREEN_LIGHT_1 : #2FA397;
+--COLOR_GREEN_LIGHT_2 : #37ACA0;
+--COLOR_GREEN_LIGHT_3 : #40B4A8;
+--COLOR_GREEN_LIGHT_4 : #49BCB0;
+--COLOR_GREEN_LIGHT_5 : #53C3B7;
+--COLOR_GREEN_LIGHT_6 : #5DCABF;
+--COLOR_GREEN_LIGHT_7 : #67D1C6;
+--COLOR_GREEN_LIGHT_8 : #72D7CC;
+--COLOR_GREEN_LIGHT_9 : #7DDCD2;
+--COLOR_GREEN_LIGHT_10 : #88E2D8;
+--COLOR_GREEN_LIGHT_11 : #96E7DE;
+--COLOR_GREEN_LIGHT_12 : #A3EBE3;
+--COLOR_GREEN_LIGHT_13 : #B1EFE8;
+--COLOR_GREEN_LIGHT_14 : #BEF3ED;
+--COLOR_GREEN_LIGHT_15 : #CCF6F2;
+
+/** SHADES GREEN 2 */
+
+--COLOR_GREEN_2_DARK_15 : #004D50;
+--COLOR_GREEN_2_DARK_14 : #005356;
+--COLOR_GREEN_2_DARK_13 : #00595C;
+--COLOR_GREEN_2_DARK_12 : #005E61;
+--COLOR_GREEN_2_DARK_11 : #006366;
+--COLOR_GREEN_2_DARK_10 : #00676A;
+--COLOR_GREEN_2_DARK_9 : #006C6F;
+--COLOR_GREEN_2_DARK_8 : #006F73;
+--COLOR_GREEN_2_DARK_7 : #007376;
+--COLOR_GREEN_2_DARK_6 : #007679;
+--COLOR_GREEN_2_DARK_5 : #00797C;
+--COLOR_GREEN_2_DARK_4 : #007B7F;
+--COLOR_GREEN_2_DARK_3 : #007E81;
+--COLOR_GREEN_2_DARK_2 : #007F83;
+--COLOR_GREEN_2_DARK_1 : #008184;
+
+/** TINTS GREEN 2 */
+
+--COLOR_GREEN_2_LIGHT_1 : #0E8D90;
+--COLOR_GREEN_2_LIGHT_2 : #1B979A;
+--COLOR_GREEN_2_LIGHT_3 : #29A1A4;
+--COLOR_GREEN_2_LIGHT_4 : #36AAAD;
+--COLOR_GREEN_2_LIGHT_5 : #44B3B6;
+--COLOR_GREEN_2_LIGHT_6 : #52BBBE;
+--COLOR_GREEN_2_LIGHT_7 : #5FC3C6;
+--COLOR_GREEN_2_LIGHT_8 : #6DCBCD;
+--COLOR_GREEN_2_LIGHT_9 : #7AD2D4;
+--COLOR_GREEN_2_LIGHT_10 : #88D8DB;
+--COLOR_GREEN_2_LIGHT_11 : #96DFE1;
+--COLOR_GREEN_2_LIGHT_12 : #A3E4E6;
+--COLOR_GREEN_2_LIGHT_13 : #B1EAEB;
+--COLOR_GREEN_2_LIGHT_14 : #BEEEF0;
+--COLOR_GREEN_2_LIGHT_15 : #CCF3F4;
+
+/** NEW COLORS PALETTE*/
+
+--NS_COLOR_01 : #08080A;/* negro intenso */
+--NS_COLOR_02 : #002832;/* bronce cañon */
+--NS_COLOR_02_A : #002832;/* bronce cañon */
+--NS_COLOR_02_B : #002832;/* bronce cañon */
+--NS_COLOR_03 : #B9EAE3;/* verde azul medio */
+--NS_COLOR_03_A : #B9EAE3;/* verde azul medio */
+--NS_COLOR_03_B : #B9EAE3;/* verde azul medio */
+--NS_COLOR_04 : #A6D8DC;/* azul pálido */
+--NS_COLOR_05 : #CEE9ED;/* cian claro */
+--NS_COLOR_06 : #D5EFEA;/* verde azul medio 2 */
+--NS_COLOR_06_A : #D5EFEA;/* verde azul medio 2 */
+--NS_COLOR_07 : #279A8E;/* verde persa */
+--NS_COLOR_07_A : #279A8E;/* verde persa */
+--NS_COLOR_07_B : #279A8E;/* verde persa */
+--NS_COLOR_08 : #2FBAAB;/* verde keppel */
+--NS_COLOR_08_A : #2FBAAB;/* verde keppel */
+--NS_COLOR_09 : #008285;/* verde azulado */
+--NS_COLOR_09_A : #008285;/* verde azulado */
+--NS_COLOR_10 : #00ABAD;/* verdete */
+--NS_COLOR_11 : #B3DFF1;/* azul claro */
+--NS_COLOR_12 : #D7EEF8;/* azure x 11 */
+--NS_COLOR_13 : #005E76;/* zafiro azul */
+--NS_COLOR_13_A : #005E76;/* zafiro azul */
+--NS_COLOR_13_A : #005E76;/* zafiro azul */
+--NS_COLOR_14 : #028BAE;/* azul munsell */
+--NS_COLOR_14_A : #028BAE;/* azul munsell */
+--NS_COLOR_14_B : #028BAE;/* azul munsell */
+--NS_COLOR_15 : #06738F;/* azul turquesa */
+--NS_COLOR_15_A : #06738F;/* azul turquesa */
+--NS_COLOR_16 : #F9E7C7;/* almendra */
+--NS_COLOR_16_A : #F9E7C7;/* almendra */
+--NS_COLOR_16_B : #F9E7C7;/* almendra */
+--NS_COLOR_17 : #F7AC11;/* miel */
+--NS_COLOR_17_A : #F7AC11;/* miel */
+--NS_COLOR_17_B : #F7AC11;/* miel */
+--NS_COLOR_18 : #F7C216;/* amapola dorada */
+--NS_COLOR_18_A : #F7C216;/* amapola dorada */
+--NS_COLOR_18_B : #F7C216;/* amapola dorada */
+--NS_COLOR_19 : #FFCECC;/* bebé rosa */
+--NS_COLOR_19_A : #FFCECC;/* bebé rosa */
+--NS_COLOR_19_B : #FFCECC;/* bebé rosa */
+--NS_COLOR_20 : #E97D6D;/* salmón */
+--NS_COLOR_20_A : #E97D6D;/* salmón */
+--NS_COLOR_21 : #E84434;/* rojo canabrio */
+--NS_COLOR_21_A : #E84434;/* rojo canabrio */
+--NS_COLOR_21_B : #E84434;/* rojo canabrio */
+--NS_COLOR_22 : #E6E6E6;/* platino */
+--NS_COLOR_22_A : #E6E6E6;/* platino */
+--NS_COLOR_22_B : #E6E6E6;/* platino */
+--NS_COLOR_23 : #999998;/* gris español */
+--NS_COLOR_23_A : #999998;/* gris español */
+--NS_COLOR_23_B : #999998;/* gris español */
+--NS_COLOR_24 : #39393A;/* chorro */
+--NS_COLOR_24_A : #39393A;/* chorro */
+--NS_COLOR_25 : #FFFFFF;/* blanco */
+--NS_COLOR_25_A : #FFFFFF;/* blanco */
+--NS_COLOR_25_B : #FFFFFF;/* blanco */
+
+/* pastel_2 */
+--COLOR_PASTEL_2A : #FFD6A5;
+--COLOR_PASTEL_2B : #FDFFB6;
+--COLOR_PASTEL_2C : #CAFFBF;
+--COLOR_PASTEL_2D : #9BF6FF;
+--COLOR_PASTEL_2E : #A0C4FF;
+--COLOR_PASTEL_2F : #BDB2FF;
+--COLOR_PASTEL_2G : #FFC6FF;
+--COLOR_PASTEL_2H : #FFADAD;
+
+/* pastel_3 */
+--COLOR_PASTEL_3A : #F7E611;
+--COLOR_PASTEL_3B : #FDE4CF;
+--COLOR_PASTEL_3C : #FFCFD2;
+--COLOR_PASTEL_3D : #F1C0E8;
+--COLOR_PASTEL_3E : #CFBAF0;
+--COLOR_PASTEL_3F : #A3C4F3;
+--COLOR_PASTEL_3G : #90DBF4;
+--COLOR_PASTEL_3H : #8EECF5;
+--COLOR_PASTEL_3I : #98F5E1;
+--COLOR_PASTEL_3J : #B9FBC0;
+
+/* pastel_4 */
+--COLOR_PASTEL_4A : #FF99C8;
+--COLOR_PASTEL_4B : #FCF6BD;
+--COLOR_PASTEL_4C : #D0F4DE;
+--COLOR_PASTEL_4D : #A9DEF9;
+--COLOR_PASTEL_4E : #E4C1F9;
+
+/* pastel_5 */
+--COLOR_PASTEL_5A : #F7E611;
+--COLOR_PASTEL_5B : #FDE4CF;
+--COLOR_PASTEL_5C : #FFCFD2;
+--COLOR_PASTEL_5D : #F1C0E8;
+--COLOR_PASTEL_5E : #CFBAF0;
+--COLOR_PASTEL_5F : #A3C4F3;
+--COLOR_PASTEL_5G : #90DBF4;
+--COLOR_PASTEL_5H : #8EECF5;
+--COLOR_PASTEL_5I : #98F5E1;
+--COLOR_PASTEL_5J : #B9FBC0;
+--COLOR_PASTEL_5K : #BEF7D9;
+--COLOR_PASTEL_5L : #BAE1ED;
+--COLOR_PASTEL_5M : #F9C04A;
+--COLOR_PASTEL_5N : #F8C1D3;
+--COLOR_PASTEL_5O : #8FC4FF;
+
+/* pastel_6 */
+--COLOR_PASTEL_6A : #FACD70;
+--COLOR_PASTEL_6B : #FBB683;
+--COLOR_PASTEL_6C : #FCBFA9;
+--COLOR_PASTEL_6D : #FFCFD2;
+--COLOR_PASTEL_6E : #F1C0E8;
+--COLOR_PASTEL_6F : #DDBAF0;
+--COLOR_PASTEL_6G : #C2BAF0;
+--COLOR_PASTEL_6H : #A9BFF8;
+--COLOR_PASTEL_6I : #8FC4FF;
+--COLOR_PASTEL_6J : #90DBF4;
+--COLOR_PASTEL_6K : #8EECF5;
+--COLOR_PASTEL_6L : #98F5E1;
+--COLOR_PASTEL_6M : #B9FBC0;
+--COLOR_PASTEL_6N : #EAFFBF;
+--COLOR_PASTEL_6O : #FBF283;
+}

@@ -1,0 +1,12 @@
+.div_google_chart{
+	margin:5px;
+}
+@media only screen and (max-width: 600px) {
+    .img_stats{width:400px !important;}
+}
+@media only screen and (max-width: 400px) {
+    .img_stats{width:270px !important;}
+}
+@media only screen and (max-width: 200px) {
+    .img_stats{width:150px !important;}
+}

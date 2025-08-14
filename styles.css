@@ -1,0 +1,107 @@
+.small_box_help_resources span, .ad_message span{
+	font-size:5em;
+	margin:5px;
+	margin-top:;
+	color:#ffffff;
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.small_box_help_resources span:hover, .ad_message span:hover{
+	opacity: 1;
+}
+
+#button_customer_satisfaction_rate_us{
+    float:right;
+    width:150px;
+    cursor:pointer;
+    margin:auto;
+    margin-top:-5px;
+    padding:5px;
+    text-align:center;
+}
+
+#button_customer_satisfaction_rate_us:hover{
+	background-color: #002832;
+}
+
+#span_title_image{
+	font-size:12px;
+	color:#666666; 
+	width:25px !important; 
+	background-color:#${span_title_bgcolor};
+}
+
+#span_title{
+	/*font-family:'Open Sans', sans-serif;*/
+	font-size:12px;
+	color:#666666;
+	font-weight:bold;
+	height:25px;
+	background-color:#${span_title_bgcolor};
+	
+}
+#cssmenu > ul > li.has-sub:hover > a::after {border-color: #${role_color} !important;}
+#menu-line {background: #${role_color} !important;}
+#cssmenu > ul > li.active > a {color: #${role_color} !important;}
+
+.event_types_legend{
+	clear : both;
+	height:auto;
+}
+.event_types_legend .spacer{
+	height  : 1px;
+	clear 	: both;
+}
+
+.event_types_legend .one_event_type{
+	margin 		: 3px;
+	width 		: 200px;
+	height 		: 30px;
+	float 		: left;
+	position 	: relative;
+	overflow 	: hidden;
+	font-size 	: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	box-sizing: border-box;
+
+}
+
+.event_types_legend .one_event_type .color{
+	width 		: 30px;
+	height 		: 30px;
+	float 		: left;
+}
+
+.event_types_legend .one_event_type .label{
+	width 		: 150px;
+	height 		: 30px;
+	float 		: left;
+	background-color: #eeeeee;
+	color 		: #666666;
+}
+
+.bottom_spacer{
+	width : 100%;
+	height: 100px !important;
+	clear : both !important;
+}
+
+
+@media only screen and (max-width: 1368px) {
+   .small_box_help_resources span, .ad_message span{
+		font-size:4.5em;
+	}
+}
+
+@media only screen and (max-width: 1050px) {
+   .small_box_help_resources span, .ad_message span{
+		font-size:3em;
+	}
+}
+
+.swal2-container {
+	z-index: 99999999 !important;
+}

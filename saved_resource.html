@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<!-- saved from url=(0084)https://plataforma.educa.city/app/web/control/start/actions.php?action=see_dashboard -->
+<html lang="en" class=" js inlinesvg"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- start: Meta -->
+	
+	<title>Educa City</title>
+	
+	<!-- start: Mobile Specific -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- end: Mobile Specific -->
+
+	<!-- start: Bundles and jquery -->
+	<!-- <script src='https://plataforma.educa.city/app/web/assets/jquery/jquery-1.10.2.min.cied.js'></script>
+	<script src='https://plataforma.educa.city/app/web/assets/jquery/jquery-migrate-1.2.1.min.cied.js'></script>
+	<script src='https://plataforma.educa.city/app/web/assets/jquery/ui/1.11.3/jquery-ui.min.cied.js'></script> -->
+
+	<script src="./jquery-1.10.2.min.js.descarga" integrity="sha256-C6CB9UYIS9UJeqinPHWTHVqh/E1uhG5Twh+Y5qFQmYg=" crossorigin="anonymous"></script>
+	<script src="./jquery-migrate-1.2.1.min.js.descarga" integrity="sha256-HmfY28yh9v2U4HfIXC+0D6HCdWyZI42qjaiCFEJgpo0=" crossorigin="anonymous"></script>
+	<script src="./jquery-ui.min.js.descarga" integrity="sha256-xI/qyl9vpwWFOXz7+x/9WkG5j/SVnSw21viy8fWwbeE=" crossorigin="anonymous"></script>
+
+	<link href="./allowed_colors.css" rel="stylesheet">
+	<link href="./bundle.css" rel="stylesheet">
+	<script src="./bundle.js.descarga"></script>
+
+	<!-- start: CSS Platform -->
+	<link href="./all.min.css" rel="stylesheet">
+	<link href="./style(1).cied.css" rel="stylesheet" type="text/css">
+	<link href="./style.cied.css" rel="stylesheet" type="text/css">
+	<link href="./styles(2).css" rel="stylesheet" type="text/css">
+	<link href="./main.css" rel="stylesheet" type="text/css">
+	
+	<link href="./statistics.css" rel="stylesheet" type="text/css">
+	<link href="./styles(1).cied.css" rel="stylesheet" type="text/css">
+	
+<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+<body class="body body_grid_list" style="">
+<!-- start: Header -->
+<div class="container-fluid-full">
+	<div class="row-fluid">
+		<!-- start: Main Menu -->
+		<div id="sidebar-left" class="span2 sidebar-desktop">
+			<div class="nav-collapse sidebar-nav">
+				<ul class="nav nav-tabs nav-stacked main-menu">
+					<li display="1">
+						<a id="button_desk"><i class="icon-home"></i><span class="hidden-tablet"> Escritorio</span></a>
+					</li>
+					<li display="1">
+						<a id="button_change_interface"><i class="icon-globe"></i><span class="hidden-tablet"> Cambiar interface</span></a>
+					</li>
+					<li display="1">
+						<a id="button_academic_statistics"><i class="icn-reports_academic_statistics"></i><span class="hidden-tablet"> Estadísticas Académicas</span></a>
+					</li>
+					<li display="1">
+						<a id="button_usage_statistics"><i class="icon-eye-open"></i><span class="hidden-tablet"> Datos de Uso</span></a>
+					</li>
+					<li display="1">
+						<a id="button_nusoft_news"><i class="icn-news"></i><span class="hidden-tablet"> Novedades</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- end: Main Menu -->
+		<!-- start: Content -->
+		<div id="content" class="span10 dashboard_content">
+			<div class="div_alert_msg div_alert_msg_warning r5">
+					<div><span class="ico-warning"></span></div>
+					<div style="width: 95%;">Ha sido un año de trabajo conjunto. Tus colaboradores y el personal de educa.city nos hemos esforzado para brindar lo mejor. Queremos invitarte a renovar el servicio de <strong>Educa City</strong>. Comunicate a teléfono 3016948729 o escribe a marcelaotalvaro@nusoft.com.co.</div></div>
+			<div id="div_desk" class="row-fluid dashboard_div" style="display: none;"><!-- <div class="banner_app" id="banner_app" onclick='window.open("https://play.google.com/store/apps/details?id=com.educa_city.app")' style='margin-bottom:28px;border-radius:1em;height: 12em;overflow:hidden;margin-top:-25px !important;'>
+	<img src='https://plataforma.educa.city/app/web/assets/images/banners/banner_app__teachers_and_staff.png' style='width:100%;height:100%;border-radius:1em;'>
+</div> -->
+<!-- <div class="row-fluid">
+	<div class="orange box_sizing_bb r10 tac" style='margin-bottom:28px;padding:10px;'>
+	¡Recuerda! Hemos cambiado nuestras líneas de atención. Para conocer la información completa da clic <a href='https://social.educa.city/index.php/newsArticles/nuevas-lineas-de-atencion-5863' target='_blank'>aquí</a>.
+	</div>
+</div> -->
+<!-- <div class="row-fluid">
+	<div class="blueLight box_sizing_bb r10 tac" style='margin-bottom:28px;padding:10px;'>
+		Te invitamos a compartir Educa City con funcionarios de gobierno u otras instituciones que lo puedan estar necesitando.
+		<br/>
+		<a href='https://plataforma.educa.city/educacion-virtual-para-tu-municipio.pdf' target='_blank' download="EducaCity para municipios.pdf">Comparte con Gobierno</a> |  
+		<a href='https://plataforma.educa.city/educacion-virtual-para-tu-colegio.pdf' target='_blank' download="EducaCity para colegios.pdf">Comparte con Colegios</a> 
+	</div>
+</div> -->
+<div class="row-fluid" style="display: none;">
+	<div class="box_sizing_bb blue2" style="margin-bottom:28px;padding:10px;">
+		<div id="location_text">
+			<i class="fa-solid fa-school"></i> Educa City  &gt; Institución Educativa Maria Antonia Penagos
+			<div id="button_customer_satisfaction_rate_us" class="r5"><i class="fa-solid fa-star"></i> Danos tu opinión</div>
+		</div>
+	</div>
+</div>
+<div class="row-fluid" style="display: none;">
+	<div class="span3 statbox blue3" ontablet="span6" ondesktop="span3">
+		<div id="welcome_div">
+			<div class="vat tar welcome_user_img r10" style="font-size:1em; overflow:hidden;">
+				<img src="./no_photo@2x.jpg" onerror="this.onerror=null;this.src=&#39;https://plataforma.educa.city/app/web/assets/images/no_photo.jpg&#39;;" width="60" height="60">
+			</div>
+			<div class="vat p5 welcome_message" id="welcome_message">
+				<strong>Jose Joaquin Chacon Villanueva</strong>
+				<br><b>IP: 10.0.0.35</b>
+				<br><b>Todas Las Sedes</b>
+			</div>
+		</div>
+		<div class="footer"><a id="button_change_interface_2">Cambiar interface</a></div>
+	</div>
+	<div class="span3 statbox yellow" ontablet="span6" ondesktop="span3">
+		<div id="td_slider_messages" class="dn vat" style="display: block;">
+			<div id="div_slider_messages" style="font-size: smaller; width: 100%; color: rgb(255, 255, 255) !important; display: block;" slider_name="dashboard_slider"><div class="vam tac ad_message ad_number_0" id="ad_0" role_id="80">
+				<br>
+				<i class="fa-brands fa-facebook cp social_network" sn="facebook"></i>
+				<i class="fa-brands fa-tiktok cp social_network" sn="tiktok"></i>
+				<i class="fa-brands fa-instagram cp social_network" sn="instagram"></i>
+				<i class="fa-brands fa-youtube cp social_network" sn="youtube"></i>
+				<div class="footer" style="font-size:1.3em;"><a id="button_social_networks">Redes sociales</a></div>
+			</div></div>
+		</div>
+	</div>
+	<!-- <div class="span3 statbox gray" role="school_admin" onTablet="span6" onDesktop="span3">
+    <div class="boxchart">-1,-24,-14,-16,-3,-6,-103,-68,-11,-1,-5,-2,-2,-9,-3,-1</div>
+    <div class="number">-1<i class="fa-solid fa-circle-down"></i></div>
+    <div class="title">Clima organizacional</div>
+    <div class="footer">
+        <a id='button_organizational_climate'> Reporte completo</a>
+    </div>
+</div>  -->
+	<div class="span3 statbox  blue3" role="" ontablet="span6" ondesktop="span3">
+	<!-- <span class="percent">%</span> -->
+	<div class="circleStat" style="float: left; zoom: 0.5;">
+		<div style="width:200px;display:inline;&quot;"><canvas width="200" height="200"></canvas><input type="text" value="88" class="whiteCircle" readonly="readonly" style="width: 100px; position: absolute; margin-top: 71.4286px; margin-left: -150px; font-size: 50px; border: none; background: none; font-family: Arial; font-weight: bold; text-align: center; color: rgba(255, 255, 255, 0.9); padding: 0px; appearance: none; zoom: 0.999;"></div>
+	</div>
+	<div class="legend" id="button_enrollments">
+		<div class="count">
+			<span class="number">2952</span>
+			<br>
+			<span class="unit">Matrículas</span>
+		</div>
+		<div class="value">
+			<span class="number">3349</span>
+			<br>
+			<span class="unit">Prematrículas</span>
+		</div>	
+	</div>
+</div>
+
+<style>
+.statbox .legend{
+	float:left;
+	width:100px;
+	margin-left: 20px;
+}
+.statbox .legend span{
+	position:normal;
+}
+.statbox .legend{
+	margin-top:-7px;
+}
+.statbox .legend .unit{
+	font-size:1em;
+	margin-top:5px;
+	line-height: 30px;
+}
+.statbox .legend .number{
+	font-size:2em;
+	position:relative;
+	margin-left:10px;
+}
+.statbox .percent{
+	font-size: 16px;
+	position: absolute;
+	top:65px; 
+	left:53px;
+	text-align: center;
+	color: rgba(255,255,255,0.9);
+}
+</style>
+	
+</div>
+<div class="row-fluid" style="display: none;">
+	<link rel="stylesheet" href="./styles(3).css">
+<div class="newsbox box_sizing_bb" style="margin-bottom:28px; padding:10px;">
+	<h2>
+		Novedades educa.city
+	</h2>
+	<div class="news-grid">
+		<div class="news-card" display="1">
+			<div class="news-header">
+				<img src="./Camilo.png" alt="Camilo">
+				<h4>El reporte final de periodo ha cambiado</h4>
+			</div>
+			<div class="additional_info">
+				2025-07-09 - Camilo - Ingeniería
+			</div>
+		</div>
+
+		<div class="news-card" display="1">
+			<div class="news-header">
+				<img src="./Camilo.png" alt="Camilo">
+				<h4>Nueva versión de la planilla de actividades</h4>
+			</div>
+			<div class="additional_info">
+				2025-07-09 - Camilo - Ingeniería
+			</div>
+		</div>
+
+		<div class="news-card" display="1">
+			<div class="news-header">
+				<img src="./JoseF.png" alt="Jose">
+				<h4>Nuevo informe "Planilla auxiliar con espacio para firmar"</h4>
+			</div>
+			<div class="additional_info">
+				2025-07-17 - Jose - Ingeniería
+			</div>
+		</div>
+
+		<div class="news-card" display="1">
+			<div class="news-header">
+				<img src="./andreaM.png" alt="Andrea">
+				<h4>Actualización en constancias y certificados para controlar inclusión de documento y lugar de expedición en firmas</h4>
+			</div>
+			<div class="additional_info">
+				2025-07-04 - Andrea - Ingeniería
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<a id="button_news_more_information">Ver más</a>
+	</div>
+</div>
+</div>
+<div class="row-fluid" style="display: none;">
+	<div class="span8 widget blue" ontablet="span7" ondesktop="span8" style="position:relative;">
+	<div class="title">Asistencia vs Desempeño</div>
+	<div role="school_admin" class="chart_attendance_vs_performance dashboard_chart" style="height: 265px; padding: 0px; position: relative;"><canvas class="base" width="1402" height="530" style="width: 701px; height: 265px;"></canvas><canvas class="overlay" width="1402" height="530" style="position: absolute; left: 0px; top: 0px; width: 701px; height: 265px;"></canvas><div class="tickLabels" style="font-size:smaller"><div class="xAxis x1Axis" style="color:rgba(255,255,255,0.8)"><div class="tickLabel" style="position:absolute;text-align:center;left:32px;top:250px;width:53px">24/Sep</div><div class="tickLabel" style="position:absolute;text-align:center;left:95px;top:250px;width:53px">24/Oct</div><div class="tickLabel" style="position:absolute;text-align:center;left:156px;top:250px;width:53px">24/Nov</div><div class="tickLabel" style="position:absolute;text-align:center;left:219px;top:250px;width:53px">24/Dec</div><div class="tickLabel" style="position:absolute;text-align:center;left:282px;top:250px;width:53px">25/Jan</div><div class="tickLabel" style="position:absolute;text-align:center;left:339px;top:250px;width:53px">25/Feb</div><div class="tickLabel" style="position:absolute;text-align:center;left:402px;top:250px;width:53px">25/Mar</div><div class="tickLabel" style="position:absolute;text-align:center;left:463px;top:250px;width:53px">25/Apr</div><div class="tickLabel" style="position:absolute;text-align:center;left:526px;top:250px;width:53px">25/May</div><div class="tickLabel" style="position:absolute;text-align:center;left:587px;top:250px;width:53px">25/Jun</div><div class="tickLabel" style="position:absolute;text-align:center;left:650px;top:250px;width:53px">25/Jul</div></div><div class="yAxis y1Axis" style="color:rgba(255,255,255,0.8)"><div class="tickLabel" style="position:absolute;text-align:right;top:238px;right:684px;width:17px">0</div><div class="tickLabel" style="position:absolute;text-align:right;top:189px;right:684px;width:17px">20</div><div class="tickLabel" style="position:absolute;text-align:right;top:141px;right:684px;width:17px">40</div><div class="tickLabel" style="position:absolute;text-align:right;top:93px;right:684px;width:17px">60</div><div class="tickLabel" style="position:absolute;text-align:right;top:45px;right:684px;width:17px">80</div><div class="tickLabel" style="position:absolute;text-align:right;top:-3px;right:684px;width:17px">100</div></div></div></div>
+	<div class="footer">
+		<a id="button_teacher_et_results">Resultados Académicos</a>
+	</div>
+</div>
+<script>
+var chart_attendance  = null;
+var chart_performance = null;
+
+/*if(typeof(self.chart_attendance) != 'undefined'){
+	var self.chart_attendance  = null;
+}
+
+if(typeof(self.chart_performance) != 'undefined'){
+	var self.chart_performance = null;
+}*/
+
+
+var chart_attendance 	= {
+	data : [['1726203600000',99.65],['1726462800000',97.16],['1727067600000',96.94],['1727672400000',97.29],['1728277200000',99.98],['1728968400000',97.16],['1729486800000',98.05],['1730091600000',97.02],['1730696400000',98.34],['1731301200000',98.49],['1731906000000',97.39],['1732510800000',98.7],['1733461200000',99.99],['1738731600000',99.58],['1739163600000',97.16],['1739768400000',96.6],['1740373200000',97.65],['1740978000000',97.32],['1741582800000',96.31],['1742187600000',96.11],['1742792400000',97.29],['1743397200000',97.56],['1744002000000',96.27],['1744606800000',99.96],['1745211600000',97.91],['1745902800000',98.43],['1746421200000',97.07],['1747026000000',97.74],['1747630800000',96.79],['1748235600000',97.53],['1748840400000',97.74],['1749445200000',96.86],['1750050000000',97.42],['1750654800000',99.97],['1751259600000',99.98],['1751864400000',99.97],['1752469200000',97.29],['1753074000000',96.65],['1753765200000',96.86],['1754283600000',97.36],['1754888400000',97.26]]
+};
+var chart_performance 	= {
+	data : [['1726203600000',30.16],['1726376400000',44.31],['1726981200000',46.07],['1727586000000',55.79],['1728190800000',57.9],['1728795600000',59.67],['1729400400000',63.33],['1730005200000',64.23],['1730610000000',71.34],['1731214800000',72.62],['1731819600000',73.54],['1732424400000',75.09],['1733029200000',64.71],['1733720400000',20],['1738472400000',20.3],['1739077200000',23.33],['1739682000000',28.92],['1740286800000',43.47],['1740891600000',52.76],['1741496400000',57.77],['1742101200000',60.4],['1742706000000',62.3],['1743310800000',64.53],['1743915600000',66.56],['1744520400000',70.52],['1745125200000',71.94],['1745730000000',72.29],['1746334800000',41.49],['1746939600000',25.38],['1747544400000',35.2],['1748149200000',47.52],['1748754000000',49.89],['1749358800000',59.61],['1749963600000',63.1],['1750568400000',63.4],['1751173200000',56.97],['1751778000000',68.39],['1752382800000',59.19],['1752987600000',59.83],['1753592400000',62.97],['1754197200000',66.68],['1754802000000',72.31]]
+};
+
+self.chart_attendance = chart_attendance;
+self.chart_performance = chart_performance;
+
+</script>
+	<div class="chart__seats span4 widget" role="school_admin" chart_type="chart_seats" ontablet="span5" ondesktop="span4" style="background-color:#f3f3f3;min-height:300px;">
+	<div class="title">Cupos disponibles</div>
+	<div class="an_seats" style="padding: 0 50px 0 40px !important;">
+		<div class="canvas" style="padding: 0px; position: relative;"><canvas class="base" width="500" height="500" style="width: 250px; height: 250px;"></canvas><canvas class="overlay" width="500" height="500" style="position: absolute; left: 0px; top: 0px; width: 250px; height: 250px;"></canvas><div class="legend"><div style="position: absolute; width: 82px; height: 34px; top: -20px; right: -20px; background-color: rgb(255, 255, 255); opacity: 0.85;"> </div><table style="position:absolute;top:-20px;right:-20px;;font-size:smaller;color:#545454"><tbody><tr><td class="legendColorBox"><div style="border:1px solid #ccc;padding:1px"><div style="width:4px;height:0;border:5px solid #4492A9;overflow:hidden"></div></div></td><td class="legendLabel">Matrículados</td></tr><tr><td class="legendColorBox"><div style="border:1px solid #ccc;padding:1px"><div style="width:4px;height:0;border:5px solid #F7AC11;overflow:hidden"></div></div></td><td class="legendLabel">Other</td></tr></tbody></table></div><span class="pieLabel" id="pieLabel0" style="position: absolute; top: 50.5px; left: 4px;"><div style="font-size:8pt;text-align:center;padding:2px;">2651</div></span></div>
+	</div>
+	<!-- <div class="footer"> -->
+		<!-- <a id='${button_id}'>${button_label}</a> -->
+		
+	<!-- </div> -->
+</div>
+<script> var chart_seats = [
+{ color: '#F7AC11', label: 'Disponibles',  data: -2501},{ color: '#4492A9', label: 'Matrículados',  data: 2651}];
+</script>
+	<!-- Start .sparkStats -->
+	<!-- <script>
+var ar_sparkline_charts_data = {};
+ar_sparkline_charts_data[1] = [[1,10407],[2,7476],[3,5040],[4,2587],[5,2283],[6,1990],[7,2005],[8,2815],[9,586],[10,519],[11,740],[12,2403],[13,2710],[14,4100],[15,3749],[16,4018]];
+ar_sparkline_charts_data[2] = [[1,73],[2,45],[3,54],[4,63],[5,28],[6,25],[7,32],[8,45],[9,15],[10,22],[11,41],[12,30],[13,42],[14,27],[15,27],[16,32]];
+ar_sparkline_charts_data[3] = [[1,1659],[2,1049],[3,790],[4,723],[5,625],[6,526],[7,540],[8,608],[9,41],[10,87],[11,117],[12,591],[13,612],[14,586],[15,649],[16,832]];
+ar_sparkline_charts_data[4] = [[1,8675],[2,6382],[3,4194],[4,1800],[5,1630],[6,1439],[7,1433],[8,2162],[9,530],[10,410],[11,582],[12,1782],[13,2056],[14,3486],[15,3073],[16,3154]];
+ar_sparkline_charts_data[5] = [[1,0],[2,0],[3,0],[4,0],[5,3746],[6,3411],[7,1436],[8,652],[9,305],[10,178],[11,130],[12,66],[13,101],[14,36],[15,64],[16,118],[17,396],[18,3257],[19,2648],[20,2025],[21,630],[22,453],[23,85],[24,150],[25,25],[26,0],[27,8],[28,152],[29,25],[30,82],[31,55],[32,24]];
+ar_sparkline_charts_data[6] = [[1,0],[2,0],[3,0],[4,0],[5,30489],[6,57044],[7,40575],[8,34140],[9,32671],[10,49466],[11,38379],[12,45388],[13,39455],[14,53859],[15,60643],[16,109162],[17,151334],[18,74546],[19,45315],[20,46400],[21,27038],[22,30107],[23,23625],[24,38377],[25,5099],[26,33823],[27,54667],[28,145946],[29,62548],[30,81244],[31,49272],[32,63593]];
+</script>
+<style>
+.sparkLineStats > .chart_box{
+	clear:both;
+	width:100%;
+	height:38px;
+	margin-bottom:9px;
+	border:none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+}
+.sparkLineStats > .chart_box:hover{
+	clear:both;
+	width:100%;
+	height:38px;
+	margin-bottom:9px;
+	border:none;
+	background-color:#F7AC11;
+}
+.sparkLineStats > .chart_box > .chart{
+	width:100px;
+	float:left;
+	background-color:none;
+}
+
+.sparkLineStats > .chart_box > .info{
+	width:calc(100%-100px);
+	float:left;
+	background-color:none;
+}
+
+.sparkLineStats > .chart_box > .info .number{
+	font-weight:bold;
+}
+</style>
+<div class="sparkLineStats span4 widget blue" role='school_admin' onTablet="span5" onDesktop="span4" style='margin-left: 0;'>
+	<div class='chart_box' >
+		<div class="chart sparkLineStats1"></div>
+			<div class='info'>
+			<span class="number">4018</span>
+			<br/>
+			Sesiones total
+		</div>
+	</div>
+	<div class='chart_box' >
+		<div class="chart sparkLineStats2"></div>
+			<div class='info'>
+			<span class="number">32</span>
+			<br/>
+			Sesiones admins
+		</div>
+	</div>
+	<div class="clearfix"></div>
+</div>
+<div class="sparkLineStats span4 widget blue" role='school_admin' onTablet="span5" onDesktop="span4">
+	<div class='chart_box' >
+		<div class="chart sparkLineStats3"></div>
+		<div class='info'>
+			<span class="number">3154</span>
+			<br/>
+			Sesiones estudiantes
+		</div>
+	</div>
+	<div class='chart_box' >
+		<div class="chart sparkLineStats4"></div>
+		<div class='info'>
+			<span class="number">832</span>
+			<br/>
+			Sesiones maestros
+		</div>
+	</div>
+	<div class="clearfix"></div>
+</div>
+<div class="sparkLineStats span4 widget blue" role='school_admin' onTablet="span5" onDesktop="span4">
+	<div class='chart_box' >
+		<div class="chart sparkLineStats5"></div>
+			<div class='info'>
+			<span class="number">24</span>
+			<br/>
+			Actividades creadas
+		</div>
+	</div>
+	<div class='chart_box' >
+		<div class="chart sparkLineStats6"></div>
+			<div class='info'>
+			<span class="number">63593</span>
+			<br/>
+			Acividades calificadas
+		</div>
+	</div>
+	<div class="clearfix"></div>
+</div> -->
+	<!-- End .sparkStats -->
+</div>
+<div class="row-fluid" style="display: none;">
+	<script>
+var ar_sparkline_charts_data = {};
+ar_sparkline_charts_data[1] = [[1,10407],[2,7476],[3,5040],[4,2587],[5,2283],[6,1990],[7,2005],[8,2815],[9,586],[10,519],[11,740],[12,2403],[13,2710],[14,4100],[15,3749],[16,4018]];
+ar_sparkline_charts_data[2] = [[1,73],[2,45],[3,54],[4,63],[5,28],[6,25],[7,32],[8,45],[9,15],[10,22],[11,41],[12,30],[13,42],[14,27],[15,27],[16,32]];
+ar_sparkline_charts_data[3] = [[1,1659],[2,1049],[3,790],[4,723],[5,625],[6,526],[7,540],[8,608],[9,41],[10,87],[11,117],[12,591],[13,612],[14,586],[15,649],[16,832]];
+ar_sparkline_charts_data[4] = [[1,8675],[2,6382],[3,4194],[4,1800],[5,1630],[6,1439],[7,1433],[8,2162],[9,530],[10,410],[11,582],[12,1782],[13,2056],[14,3486],[15,3073],[16,3154]];
+ar_sparkline_charts_data[5] = [[1,0],[2,0],[3,0],[4,0],[5,3746],[6,3411],[7,1436],[8,652],[9,305],[10,178],[11,130],[12,66],[13,101],[14,36],[15,64],[16,118],[17,396],[18,3257],[19,2648],[20,2025],[21,630],[22,453],[23,85],[24,150],[25,25],[26,0],[27,8],[28,152],[29,25],[30,82],[31,55],[32,24]];
+ar_sparkline_charts_data[6] = [[1,0],[2,0],[3,0],[4,0],[5,30489],[6,57044],[7,40575],[8,34140],[9,32671],[10,49466],[11,38379],[12,45388],[13,39455],[14,53859],[15,60643],[16,109162],[17,151334],[18,74546],[19,45315],[20,46400],[21,27038],[22,30107],[23,23625],[24,38377],[25,5099],[26,33823],[27,54667],[28,145946],[29,62548],[30,81244],[31,49272],[32,63593]];
+</script>
+<style>
+.sparkLineStats > .chart_box{
+	clear:both;
+	width:100%;
+	height:38px;
+	margin-bottom:9px;
+	border:none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+}
+.sparkLineStats > .chart_box:hover{
+	clear:both;
+	width:100%;
+	height:38px;
+	margin-bottom:9px;
+	border:none;
+	background-color:#F7AC11;
+}
+.sparkLineStats > .chart_box > .chart{
+	width:100px;
+	float:left;
+	background-color:none;
+}
+
+.sparkLineStats > .chart_box > .info{
+	width:calc(100%-100px);
+	float:left;
+	background-color:none;
+}
+
+.sparkLineStats > .chart_box > .info .number{
+	font-weight:bold;
+}
+</style>
+<div class="sparkLineStats span4 widget blue" role="school_admin" ontablet="span5" ondesktop="span4" style="margin-left: 0;">
+	<div class="chart_box">
+		<div class="chart sparkLineStats1" style="zoom: 0.5;"><canvas width="160" height="80" style="display: inline-block; width: 160px; height: 80px; vertical-align: top;"></canvas></div>
+			<div class="info">
+			<span class="number">4018</span>
+			<br>
+			Sesiones total
+		</div>
+	</div>
+	<div class="chart_box">
+		<div class="chart sparkLineStats2" style="zoom: 0.5;"><canvas width="160" height="80" style="display: inline-block; width: 160px; height: 80px; vertical-align: top;"></canvas></div>
+			<div class="info">
+			<span class="number">32</span>
+			<br>
+			Sesiones admins
+		</div>
+	</div>
+	<div class="clearfix"></div>
+</div>
+<div class="sparkLineStats span4 widget blue" role="school_admin" ontablet="span5" ondesktop="span4">
+	<div class="chart_box">
+		<div class="chart sparkLineStats3" style="zoom: 0.5;"><canvas width="160" height="80" style="display: inline-block; width: 160px; height: 80px; vertical-align: top;"></canvas></div>
+		<div class="info">
+			<span class="number">3154</span>
+			<br>
+			Sesiones estudiantes
+		</div>
+	</div>
+	<div class="chart_box">
+		<div class="chart sparkLineStats4" style="zoom: 0.5;"><canvas width="160" height="80" style="display: inline-block; width: 160px; height: 80px; vertical-align: top;"></canvas></div>
+		<div class="info">
+			<span class="number">832</span>
+			<br>
+			Sesiones maestros
+		</div>
+	</div>
+	<div class="clearfix"></div>
+</div>
+<div class="sparkLineStats span4 widget blue" role="school_admin" ontablet="span5" ondesktop="span4">
+	<div class="chart_box">
+		<div class="chart sparkLineStats5" style="zoom: 0.5;"><canvas width="160" height="80" style="display: inline-block; width: 160px; height: 80px; vertical-align: top;"></canvas></div>
+			<div class="info">
+			<span class="number">24</span>
+			<br>
+			Actividades creadas
+		</div>
+	</div>
+	<div class="chart_box">
+		<div class="chart sparkLineStats6" style="zoom: 0.5;"><canvas width="160" height="80" style="display: inline-block; width: 160px; height: 80px; vertical-align: top;"></canvas></div>
+			<div class="info">
+			<span class="number">63593</span>
+			<br>
+			Acividades calificadas
+		</div>
+	</div>
+	<div class="clearfix"></div>
+</div>
+</div></div>
+			<div id="div_complete_survey" class="row-fluid dashboard_div dn" style="display: none;"></div>
+			<div id="div_change_interface" class="row-fluid dashboard_div dn" style="display: none;"></div>
+			<div id="div_academic_statistics" class="row-fluid dashboard_div dn" style="display: none;"></div>
+			<div id="div_demographic_statistics" class="row-fluid dashboard_div dn" style="display: none;"></div>
+			<div id="div_usage_statistics" class="row-fluid dashboard_div dn" style="display: none;"></div>
+			<div id="div_nusoft_news" class="row-fluid dashboard_div dn" current_url="https://plataforma.educa.city/app/web/control/start/actions.php?action=see_nusoft_news&amp;a=1" style="display: block;"><div style="clear:both;"><div sytle="float:left;"><link rel="stylesheet" href="./dashboard_styles.css">
+<script type="text/javascript" src="./module_scripts.cied(2).js.descarga"></script>
+<div style="clear:both;width:100%;height:40px;font-size:1em;padding:8px;" class="titles_row_2">
+	<div class="charts_title_nusoft">
+		<span class="icn-news"></span> Novedades
+	</div>
+</div>
+<br>
+
+<div class="dashboard_news__container">
+	<div class="dashboard_news__left scrolling_area">
+		<h2>Novedades recientes</h2>
+		<div class="dashboard_news__list">
+			<div class="dashboard_news__item selected" task_id="37"><input type="hidden" class="task-id" value="37"><img src="./Camilo.png" alt="Camilo"><p class="dashboard_news__title">El reporte final de periodo ha cambiado</p></div><div class="dashboard_news__item" task_id="36"><input type="hidden" class="task-id" value="36"><img src="./Camilo.png" alt="Camilo"><p class="dashboard_news__title">Nueva versión de la planilla de actividades</p></div><div class="dashboard_news__item" task_id="35"><input type="hidden" class="task-id" value="35"><img src="./JoseF.png" alt="Jose"><p class="dashboard_news__title">Nuevo informe "Planilla auxiliar con espacio para firmar"</p></div><div class="dashboard_news__item" task_id="34"><input type="hidden" class="task-id" value="34"><img src="./andreaM.png" alt="Andrea"><p class="dashboard_news__title">Actualización en constancias y certificados para controlar inclusión de documento y lugar de expedición en firmas</p></div>
+		</div>
+	</div>
+	<div class="dashboard_news__right scrolling_area">
+		<div class="dashboard_news__details_header right">
+			<img class="dashboard_news__author_img" src="./Camilo.png" alt="no photo" style="">
+			<div class="dashboard_news__text_block">
+				<div class="dashboard_news__details_title">El reporte final de periodo ha cambiado</div>
+				<br><br>
+				<div class="dashboard_news__details_meta">Publicado por <b> Camilo</b> el 2025-07-09</div>
+				<br><br>
+				<div class="dashboard_news__additional_data">
+					<p></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="dashboard_news__hr"><hr></div>
+
+		<div class="dashboard_news__details_content right"><p></p><p>Históricamente nuestro reporte de periodo tenía 2 formas diferentes de hacerlo: reporte rápido y reporte completo. Ahora, con la nueva actualización tendrás lo mejor de los dos mundos en un solo proceso.</p>
+
+<p>Este proceso también lo tenemos en video tutorial, es una colección completa para que te quede claro cada paso, en cada uno de ellos estará el link.</p>
+
+<p>Dentro de la planilla de actividades encontrarás algunos botones nuevos:</p>
+
+<p style="text-align:center;"><img src="./L14_ICE-3534.jpg" style="width:461.728px;height:26.5361px;" alt="L14_ICE-3534.jpg"><br></p>
+
+<p>Los desempeños agregados para el periodo aparecerán en la planilla en todo el extremo derecho, esto indica que aún no están relacionados a ninguna actividad:</p>
+
+<p style="text-align:center;"><img src="./L15_ICE-3534.jpg" style="width:503.728px;height:183.349px;" alt="L15_ICE-3534.jpg"></p>
+
+<p style="text-align:left;">Al dar clic en el botón <b>"Desempeños"</b> se podrá realizar la relación y en la planilla podrán visualizarse fácilmente.</p>
+
+<p style="text-align:center;"><img src="./L16_ICE-3534.jpg" style="width:497.728px;height:191.654px;" alt="L16_ICE-3534.jpg"></p>
+
+<p style="text-align:center;"><img src="./L17_ICE-3534.jpg" style="width:307.511px;height:258.051px;" alt="L17_ICE-3534.jpg"><br></p>
+
+<p style="text-align:left;"><span style="font-size:12px;"><u>Videos:</u></span></p>
+
+<ol><li style="text-align:left;"><span style="font-size:12px;">Asignando influencias:&nbsp;</span><a href="https://youtu.be/aPhfa7OdEzs" target="_blank" rel="noreferrer noopener"><font color="#3984c6">https://youtu.be/aPhfa7OdEzs</font></a><a href="https://youtu.be/aPhfa7OdEzs" target="_blank" rel="noreferrer noopener"><span style="font-size:12px;"></span></a></li><li style="text-align:left;">Relacionar desempeños a las actividades:<a href="https://youtu.be/hnS1fBW9ghA" target="_blank" rel="noreferrer noopener"><font color="#3984c6">&nbsp;https://youtu.be/hnS1fBW9ghA</font></a></li></ol>
+
+<p style="text-align:left;">Hecho lo anterior, basta con dar clic al botón <b>"Reporte final de PE"</b>, seleccionar la configuración que mas se acomode a la necesidad y por último, reportar.</p>
+
+<p style="text-align:center;"><img src="./L20_ICE-3534.jpg" style="width:458.728px;height:235.515px;" alt="L20_ICE-3534.jpg"></p>
+
+<p style="text-align:center;"><img src="./L18_ICE-3534.jpg" style="width:503.728px;height:105.185px;" alt="L18_ICE-3534.jpg"></p>
+
+<p style="text-align:center;"><img src="./L19_ICE-3534.jpg" style="width:462.728px;height:312.917px;" alt="L19_ICE-3534.jpg"></p>
+
+<p style="text-align:left;">Finalmente, te dejo el video con este paso explicado:&nbsp;<a href="https://youtu.be/CYAgdvjpx5c" target="_blank" rel="noreferrer noopener"><font color="#3984c6">https://youtu.be/CYAgdvjpx5c</font></a></p><p></p></div>
+	</div>
+</div></div></div></div>
+			<div id="div_quality_insights" class="row-fluid dashboard_div dn" style="display: none;"></div>
+			<div id="div_management_insights" class="row-fluid dashboard_div dn" style="display: none;"></div>
+			<div id="div_customer_satisfaction" class="row-fluid dashboard_div dn" style="display: none;"></div>
+			<div id="div_statistics" class="row-fluid dashboard_div dn" style="display: none;"></div>
+		</div>
+		<!--/.fluid-container-->
+		<!-- end: Content -->
+
+	</div>
+	<!--/#content.span10-->
+</div>
+<iframe id="request_iframe" name="request_iframe" src="./saved_resource(2).html" width="0" height="0" frameborder="0" border="0"></iframe>
+<!-- start: JavaScript-->
+<script type="text/javascript" src="./loader.js.descarga" charset="utf-8"></script>
+
+<script>var current_module = 'start';var module_root_path = '/app/web/control/start';var jsmdb = false;var renewed_url = '/app/web/control/start/actions.php?action=see_dashboard&foo=50597303';var span_title = '';var span_action = '';var ar_timeout_loaded_things = new Array();try{ top.set_breadcrumbs('Inicio','');top.ms.register_loaded_module('start','Inicio','');
+}catch(e){
+					console.log('set_breadcrumbs not defined');	
+				};</script><script></script><script></script><script language="javascript" src="./framework_scripts.cied.js.descarga" charset="utf-8"></script><script src="./module_scripts.cied.js.descarga" charset="utf-8"></script><script language="javascript" src="./contextual_help.cied.js.descarga"></script>
+<script language="javascript" src="./contextual_help_2.cied.js.descarga"></script><script type="text/javascript">
+<!--
+function olMouseMove(e){var e=(e)?e:event;
+if(e.pageX){o3_x=e.pageX;o3_y=e.pageY;}else if(e.clientX){o3_x=eval('e.clientX+o3_frame.'+docRoot+'.scrollLeft');o3_y=eval('e.clientY+o3_frame.'+docRoot+'.scrollTop');}
+if(o3_allowmove==1)runHook("placeLayer",FREPLACE)f(hoveringSwitch&&!olNs4&&runHook("cursorOff",FREPLACE)){(olHideDelay?hideDelay(olHideDelay):cClick());hoveringSwitch=!hoveringSwitch;}}
+//-->
+</script>
+
+<script type="text/javascript" language="javascript" src="./module_scripts.cied(3).js.descarga" charset="utf-8"></script>
+<script>top.load_js_file('https://plataforma.educa.city/app/web/control/start/res/module_scripts.cied.js',window);</script><script>top.load_js_file('https://plataforma.educa.city/app/web/control/evaluation/statistics/res/module_scripts.cied.js',window);</script>
+<script>
+		var help_boxes = new Array();
+		self.help_boxes = help_boxes;
+		</script>
+<!-- end: JavaScript-->
+
+
+</body></html>

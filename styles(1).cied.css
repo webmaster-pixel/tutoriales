@@ -1,0 +1,227 @@
+
+.gxl_statistics_index{
+
+}
+
+.gxl_statistics_index div{
+	box-sizing 		: border-box;
+}
+
+.gxl_statistics_index .one_level{
+	clear 	: both;
+	margin 			: 10px 0px 10px 0px ;
+	min-height 		: 40px; 
+	color 			: #ffffff;
+	font-size 		: 13px;
+	font-weight 	: bold;
+	background-color : #002832;
+}
+
+.gxl_statistics_index .one_level .spacer{
+	clear 	: both;
+	height 	: 1px;
+}
+
+.gxl_statistics_index .one_level:hover{
+	background-color : #005E76;
+}
+
+.gxl_statistics_index .one_level .level_name{
+	width 			: 200px;
+	font-size 		: 14px;
+	float 			: left;
+	padding 		: 10px;
+	overflow 		: hidden; 
+}
+
+.gxl_statistics_index .one_gxl{
+	cursor 			: pointer;
+	margin 			: 5px ;
+	width 			: 80px;
+	padding 		: 5px;
+	overflow  		: hidden;
+	height 			: 30px;
+	color 			: #ffffff;
+	font-size 		: 13px;
+	font-weight 	: bold;
+	background-color : #F7AC11;
+	float 			: left;
+}
+
+.gxl_statistics_index .one_gxl.current{
+	background-color : #005972;
+
+}
+
+.gxl_statistics_index .one_gxl:hover{
+	background-color : #E09E00;
+}
+
+
+
+.table_of_students_by_et{
+	font-size:14px;
+}
+
+.table_of_students_by_et .one_enrollment{
+	clear 	: both;
+	width 	: 100%;
+	height 	: 50px;
+	margin 	: 5px 0px 5px 0px ;
+	overflow: hidden;
+}
+
+.table_of_students_by_et .one_enrollment:hover{
+	background-color: #CCCCCC;
+	box-sizing		: border-box;
+}
+
+.table_of_students_by_et .one_enrollment .one_et:hover{
+	background-color: #F7AC11;
+	color 			: #ffffff;
+	box-sizing		: border-box;
+}
+
+.table_of_students_by_et .one_enrollment .student_performance:hover{
+	background-color: #F7AC11;
+	color 			: #ffffff;
+	box-sizing		: border-box;
+}
+
+.table_of_students_by_et .one_enrollment > div, .table_of_students_by_et .titles > div{
+	float 			: left;
+	box-sizing		: border-box;
+	overflow 		: hidden; 
+}
+
+.table_of_students_by_et .one_enrollment > div{
+	height 	: 50px;
+}
+
+.table_of_students_by_et .student_picture{
+	width 	: 50px !important;
+}
+
+.table_of_students_by_et .student_first_name{
+	width 		: 200px !important;
+	padding 	: 5px;
+}
+
+.table_of_students_by_et .student_last_name{
+	width 		: 200px !important;
+	padding 		: 5px;
+}
+
+.table_of_students_by_et .student_performance{
+	margin-top 	: 5px;
+	width 		: 100px !important;
+	height 		: 40px !important;
+	padding 	: 5px;
+	cursor 		: pointer;
+	text-align 	: center;
+}
+
+.table_of_students_by_et .one_et{
+	margin-top 	: 5px;
+	width 		: 100px !important;
+	height 		: 40px !important;
+	text-align 	: center;
+	padding 	: 5px;
+	cursor 		: pointer;
+}
+
+.table_of_students_by_et .non_approved{
+	background-color: #d7eef8;
+}
+
+.floating_window{
+	position 	: fixed;
+	top 		: 50px;
+	left 		: 50px;
+	width 		: calc(100% - 100px);
+	max-width 	: calc(100% - 100px);
+	height 		: calc(100% - 100px);
+	max-height 	: calc(100% - 100px);
+	background-color: #ffffff;
+	border 		: 1px solid #cccccc;
+	padding 	: 0px !important;
+}
+
+.floating_window .content{
+	padding : 10px;
+}
+
+.floating_window .close{
+	position 	: absolute;
+	top 		: 5px;
+	right 		: 5px;
+}
+
+.span8.widget .footer{
+	background-color: rgba(0, 0, 0, 0.5) !important;
+	color : #ffffff !important;
+	/* width:200px; */
+	/* height:25px !important; */
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	padding:10px;
+	cursor:pointer;
+}
+
+.span8.widget .footer a{
+	color : #ffffff !important;
+}
+
+.span4.widget .footer{
+	background-color: rgba(0, 0, 0, 0.5) !important;
+	color : #ffffff !important;
+	position:absolute;
+	bottom: 166px;
+	right: 254px;
+	padding:10px;
+	cursor:pointer;
+}
+
+.span4.widget .footer a{
+	color : #ffffff !important;
+}
+
+@media only screen and (min-width:1800px){
+	.span4.widget .footer{
+		right: 357px;
+	}
+}
+
+.nw_button, .nw_button_2, .nw_button_3, .nw_button_4, .nw_button_keypad{
+	cursor:pointer;
+	font-size:small;
+	font-weight:500;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	background-color:#002832;
+	border:none;
+	height:26px;
+	color:#CCE6EF;
+	margin:2px;
+}
+
+.student_er_report_content{
+	max-height: calc(100% - 100px);
+}
+
+.student_er_report_content .one_input .label{
+	width 		: 480px !important;
+	text-align 	: left;
+}
+
+.student_er_report_content .one_input .input{
+	width 	: 480px !important;
+	min-height:100px;
+}
+
+.student_er_report_content .div_form_inputs_column{
+	width: 500px !important;
+	padding:10px;
+}

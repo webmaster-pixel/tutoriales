@@ -1,0 +1,140 @@
+.dashboard_news__container,
+.dashboard_news__container * {
+	box-sizing: border-box;
+}
+
+.dashboard_news__container {
+	display: flex;
+	max-height: 75vh;
+	width: 100%;
+	max-width: 100%;
+}
+
+.dashboard_news__left {
+	width: 30%;
+	max-width: 30%;
+	color: #000000;
+	padding: 20px;
+	border-right: 1px solid #ccc;
+}
+
+.dashboard_news__right {
+	width: 70%;
+	max-width: 70%;
+	color: #000000;
+	padding: 20px;
+}
+
+.dashboard_news__left h2 {
+	margin-top: 0;
+	color: #000000;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-height: 3.9em;
+	line-height: 1.3em;
+}
+
+.dashboard_news__text_block {
+	display: flex;
+	flex-direction: column;
+}
+
+.dashboard_news__list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.dashboard_news__item {
+	display: flex;
+	height: 100px;
+	align-items: center;
+	background-color: #D4DBDD;
+	border-radius: 8px;
+	padding: 15px 20px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.dashboard_news__item:hover {
+	background-color: #3A989A;
+	color: #FFFFFF;
+	transform: translateX(6px);
+}
+
+.dashboard_news__item.selected {
+	background-color: #F7AC11;
+	color: #000000;
+	transform: translateX(6px);
+}
+
+.dashboard_news__item img {
+	width: 40px;
+	height: 40px;
+	border: 2px solid white;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 10px;
+}
+
+.dashboard_news__title {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 500;
+	color: #000000;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-height: 3.6em;
+	line-height: 1.2em;
+}
+
+.dashboard_news__details_header {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	margin-bottom: 15px;
+}
+
+.dashboard_news__author_img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: 2px solid #ccc;
+}
+
+.dashboard_news__details_title {
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
+	font-size: 1.2rem;
+	color: #000000;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-height: 3.6em;
+	line-height: 1.2em;
+}
+
+.dashboard_news__details_meta .dashboard_news__additional_data{
+	margin: 0;
+	font-size: 0.9rem;
+}
+
+.dashboard_news__details_content p {
+	margin: 10px 0;
+	line-height: 1.6;
+}
+
+hr {
+	height: 2px;
+	background-color: #ccc;
+	border: none;
+	margin: 20px 0;
+}
